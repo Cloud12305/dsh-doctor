@@ -1,0 +1,26 @@
+{
+  "name": "dsh-doctor",
+  "version": "1.0.0",
+  "description": "DSH 使用问题经验库 + 卡死/报错根因诊断 + 自动修复（队列救援、延时自动重启、巡检看门狗）",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "dsh-doctor": "./bin/dsh-doctor.js"
+  },
+  "files": [
+    "lib",
+    "bin",
+    "knowledge",
+    "README.md",
+    "cordis.patch.yml",
+    "dsh.plugin.json"
+  ],
+  "engines": {
+    "node": ">=22.15"
+  },
+  "license": "MIT"
+}

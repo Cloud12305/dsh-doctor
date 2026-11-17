@@ -1,0 +1,7 @@
+# runtime / local state
+node_modules/
+.state/
+rescue/
+*.log
+status.json
+.DS_Store

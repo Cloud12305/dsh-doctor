@@ -1,0 +1,4 @@
+# dsh-doctor bundle layer: mount the doctor plugin (package root export).
+- insert:
+    - id: dsh-doctor
+      name: 'dsh-doctor'
